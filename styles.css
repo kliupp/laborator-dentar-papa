@@ -1,0 +1,304 @@
+html, body {
+    background-color: #ffffff;
+    height: 100%;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+
+.fade-in-visible {
+    opacity: 1;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.laburator, .dentar, .papa {
+    margin: 0%;
+    position: absolute;
+    font-size: 13em;
+    color: #000000;
+    padding: 20px;
+}
+
+.laburator { 
+    top: 13%;
+ }
+.dentar { 
+    top: 30%;
+    left: 49px;
+ }
+.papa { 
+    top: 47%;
+    left: 90px;
+ }
+
+.sherbimi {
+    font-family: 'Dancing Script', cursive;
+    font-style: bold;
+    font-style: italic;
+    font-style: bold;
+    margin: 0%;
+    position: absolute;
+    font-size: 2em;
+    color: #000000;
+    padding: 20px;
+    top: 75%;
+}
+
+.metemiret {
+    margin: 0%;
+    position: absolute;
+    font-size: 8em;
+    color: #000000;
+    padding: 20px;;
+    top: 100%;
+    left: 200px;
+}
+
+.metemiretp1 {
+    margin: 0%;
+    position: absolute;
+    font-size: 1.5em;
+    color: #000000;
+    padding: 20px;;
+    top: 120%;
+    left: 950px;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 20px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    text-align: justify;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.toothimg {
+    width: auto;
+    height: 500px;
+    position: absolute;
+    top: 122%;
+    left: 250px;
+}
+
+.img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.img3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.adresa {
+    margin: 0%;
+    position: absolute;
+    font-size: 8em;
+    color: #000000;
+    padding: 20px;;
+    top: 200%;
+    left: 700px;
+}
+
+.lokacioni {
+    top: 220%;
+    left: 200px;
+    position: absolute;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lokacioniinfo {
+    font-size: 1.7em;
+    top: 35%;
+    left: 700px;
+    width: 100%;
+    position: absolute;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.lokacioniinfo p {
+
+    margin: 10px 0;
+}
+
+.lokacioniinfo a {
+    color: #0044ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lokacioniinfo a:hover {
+    text-decoration: underline;
+}
+
+.mundtenagjeni {
+    font-size: 4em;
+    position: absolute;
+    top: 220%;
+    right: 520px;
+}
+
+.kontaktoni {
+    margin: 0%;
+    position: absolute;
+    font-size: 8em;
+    color: #000000;
+    padding: 20px;;
+    top: 300%;
+    left: 580px;
+}
+
+.img4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.kontaktoninenumri {
+    position: absolute;
+    font-size: 2em;
+    top: 325%;
+    left: 1000px;
+    margin: 0%;
+    position: absolute;
+    font-size: 1.5em;
+    color: #000000;
+    padding: 20px;;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 20px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    text-align: justify;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.numri {
+    position: absolute;
+    font-size: 2em;
+    top: 365%;
+    left: 340px;
+}
+
+.imgphone {
+    width: auto;
+    height: 300px;
+    position: absolute;
+    top: 330%;
+    left: 300px;
+}
+
+.rezervo {
+    margin: 1%;
+    font-size: 2.7em;
+    position: absolute;
+    top: 57%;
+    left: 65%;
+    color: #fff;
+    padding: 10px 20px;
+    font-style: italic;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 40px;
+    height: 90px;
+    width: auto;
+    font-family: Arial, sans-serif;
+    background-color: #070707;
+    transition: background-color 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.rezervo:hover {
+    background-color: #333;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-logo img {
+    width: 50px;
+}
+
+nav ul {
+    top: 10px;
+    right: 750px;
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.location-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+}
